@@ -17,7 +17,7 @@ public class PizzaParty
         System.out.print("How many pizzas do you have? ");
         int numPizzas  = input.nextInt();  // Read user input
         System.out.print("How many slices per pizza? ");
-        int numSlices  = input`                                                             q.nextInt();  // Read user input
+        int numSlices  = input.nextInt();  // Read user input
         int totalSlices = numPizzas *  numSlices;
         int slicesGiven = totalSlices / numPeople;
         int leftOverSlices =  totalSlices % numPeople;
